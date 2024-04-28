@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <title>>Ejemplo de formulario sencillo</title>
+</head>
+
+<body>
+    <div>
+        <div class="titulo">
+            <h1>Página web</h1>
+            <div id="barranav">
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+        <br>
+
+        <div id="formulario">
+            <div>
+                <h3 id="titulo">Complete el formulario</h3>
+            </div>
+            <form action="formulario.html" method="get">
+                Escribe tu nombre:
+                <input type="text" placeholder="nombre" value="" />
+                <br>
+                Escriba su apellido
+                <input type="text" placeholder="apellido" value="" />
+                <br>
+                Escriba su DNI
+                <input type="text" placeholder="DNI" value="" />
+                <br>
+                <label for="localidad">Seleccione su localidad</label>
+                <select name="localidad" id="localidad">
+                    <option value="San Clemente">San Clemente</option>
+                    <option value="Las Toninas">Las Toninas</option>
+                    <option value="Costa Chica">Costa Chica</option>
+                    <option value="Santa Teresita">Santa Teresita</option>
+                    <option value="Mar del Tuyú">Mar del Tuyú</option>
+                    <option value="Costa del Este">Costa del Este</option>
+                    <option value="Aguas Verdes">Aguas Verdes</option>
+                    <option value="Lucila del Mar">Lucila del Mar</option>
+                    <option value="Costa Azul">Costa Azul</option>
+                    <option value="San Bernardo">San Bernardo</option>
+                    <option value="Mar de Ajó">Mar de Ajó</option>
+                    <option value="Nueva Atlantis">Nueva Atlantis</option>
+                    <option value="Costa Esmeralda">Costa Esmeralda</option>
+                </select>
+                <br>
+                Sexo <br>
+                <input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre
+                <input type="radio" name="sexo" value="mujer" /> Mujer
+                <input type="radio" name="sexo" value="no binario" /> no binario
+                <input type="radio" name="sexo" value="no revelar" /> no revelar
+                <br>
+                <label for="signo zodiacal">Seleccione su signo zodiacal</label>
+                <select name="signo zodiacal" id="signo zodiacal">
+                    <option value="Capricornio">Capricornio (22/12-20/01)</option>
+                    <option value="Acuario">Acuario (21/1-19/02)</option>
+                    <option value="Piscis">Piscis (20/02-20/03)</option>
+                    <option value="Aries">Aries (21/03-19/04)</option>
+                    <option value="Tauro">Tauro (20/04-20/05)</option>
+                    <option value="Géminis">Géminis (21/05-20/06)</option>
+                    <option value="Cáncer">Cáncer (21/06-22/07)</option>
+                    <option value="Leo">Leo (23/07-22/08)</option>
+                    <option value="Virgo">Virgo (23/08-22/09)</option>
+                    <option value="Libra">Libra (23/09-22/10)</option>
+                    <option value="Escorpio">Escorpio (23/10-21/11)</option>
+                    <option value="Sagitario">Sagitario (22/11-21/12)</option>
+                </select>
+                <br>
+                
+                <label for="Preferencia">Preferencia musical</label>
+                <textarea id="Preferencia" name="Preferencia" rows="1" cols="200" placeholder="escriba aquí">
+                </textarea>
+                <br>
+                <input type="submit" value="Enviar" />
+            </form>
+        </div>
+        <footer>
+            <div class="footer">"Jana Orellana 5°b 504 © 2023
+                DPTO de Programacion. Todos los derechos reservados".</div>
+        </footer>
+
+</body>
+
+</html>
